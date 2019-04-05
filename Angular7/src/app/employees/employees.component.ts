@@ -1,3 +1,4 @@
+import { EmployeeService } from './../shared/employee.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +10,6 @@ export class EmployeesComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {  }
 
 }
